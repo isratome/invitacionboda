@@ -1,0 +1,487 @@
+html::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: black;    
+}
+html::-webkit-scrollbar-thumb
+{
+    background-color: #6fc0fd;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+    
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(135deg,#ffffff,#7facd7,#1243d9,#1243d9, #00103f, #00103f);
+    background-attachment: fixed;
+    background-size: 200%  200%;
+    position: relative;
+    animation: cambiar 5s ease-in-out infinite;
+    
+}
+@keyframes cambiar
+{
+    0%
+    {
+        background-position: 0 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0 50%;
+    }
+}
+/******************************************************************/
+.portada
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.logo
+{
+    width: 20%;
+}
+.foto_portada
+{
+
+    width: 30%;
+}
+.nombres1
+{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+h2
+{
+    color: white;
+    margin: 0px;
+    font-size:40px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+}
+h3
+{
+    color: white;
+    margin: 0px;
+    font-size: 90px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+}
+/**********************************************************/
+.versiculos
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px;
+    height: 100vh;
+}
+.aVersiculos
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+.pVersiculos
+{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    margin: 0;
+}
+
+.imagenversiculos
+{
+    height: 250px;
+}
+.imagenversiculos2
+{
+    height: 250px;
+    transform: scaleX(-1);
+}
+/****************************************************************/
+.invitacion
+{
+    margin: 50px 0px;
+}
+.i1, .i2
+{
+    text-align: center;
+}
+.flor9
+{
+    width: 25%;
+}
+.DivInvitacion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.DivInvitacion p
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 60%;
+    font-family: "Cormorant", serif;
+    margin: 3px 0px;
+}
+.nombres2
+{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    font-size: 40px;
+}
+
+/**************************************************************/
+.u1
+{
+    width: 30%;
+}
+.ubicacionflor8
+{
+    width: 100%;
+}
+.ubicacion
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px;
+    height: 100vh;
+}
+.aUbicacion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.aUbicacion p
+{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Cormorant", serif;
+    margin: 10px 0px;
+
+}
+.u5 a
+{
+    border-radius: 10px;
+    color: white;
+    background-color: #062c8b;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.u4
+{
+    font-size: 20px !important;
+}
+.u3
+{
+    background-color: white;
+    border-radius: 10px;
+}
+.link-ubi
+{
+    font-family: "Cormorant", serif;
+}
+.u5 a:hover
+{
+    background-color: rgba(84,198,252,1);
+}
+
+/***********************************************************/
+
+.regalo
+{
+    margin: 50px 0px;
+}
+.flor6
+{
+    width: 25%;
+}
+.r10 a
+{
+    border-radius: 10px;
+    color: white;
+    background-color: #062c8b;
+    margin: 10px;
+    padding: 5px 25px;
+}
+.u5 a, .r10 a:link
+{ 
+    text-decoration: none;
+}
+.r10 a:hover
+{
+    background-color: rgba(84,198,252,1);
+}
+.sobre
+{
+    width: 5%;
+}
+.vestimenta
+{
+    width:25%;
+}
+.regalo p
+{
+    color: white;
+    font-family: "Cormorant", serif;
+    font-size: 25px;
+    text-align: center;
+}
+.colores
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 12px 10px;
+    width: 50%;
+    margin: auto;
+    background-color: #80dbff;
+}
+.blanco
+{
+    background-color: white;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.azul
+{
+    background-color: #0e46d4;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.celeste
+{
+    background-color: #4d82bc;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.marino
+{
+    background-color: #071C85;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.rojo
+{
+    background-color: red;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.granate
+{
+    background-color: #BF0404;
+    border-radius: 60px;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+.r2, .r5, .r7, .r9
+{
+    font-size: 35px !important;
+    font-weight: bold;
+}
+.nombres3
+{
+    font-family: "Great Vibes", cursive;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    font-size: 40px;
+}
+.iubicacionflor8
+{
+    transform: scaleX(-1);
+}
+.iflor9, .iflor6
+{
+    transform: scaleY(-1);
+}
+@media screen and (min-width: 0px) and (max-width: 500px)
+{
+    .portada, .versiculos, .ubicacion, .regalo, .invitacion
+    {
+        margin: 0;
+    }
+    .imagenversiculos2, .flor92, .iubicacionflor8
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 80%;
+    }    
+    .nombres1
+    {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .foto_portada
+    {
+        width: 70%;
+    }
+    h3
+    {
+        font-size: 45px;
+    }
+    h2
+    {
+        font-size:35px;
+    }
+    /************************************************/
+
+    .versiculos
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagenversiculos
+    {
+        height: 120px;
+    }
+    .imagenversiculos2
+    {
+        height: 120px;
+        transform: scaleY(-1);
+    }
+    .aVersiculos
+    {
+        width: 90%;
+    }
+    .pVersiculos
+    {
+        width: 100%;
+        font-size: 30px;
+    }
+    /*********************************************/
+    .nombres2
+    {
+        margin: 25px 0px;
+    }
+    .di8
+    {
+        margin-top: 20px !important; 
+    }
+    .flor9
+    {
+        width: 60%;
+    }
+    .DivInvitacion p
+    {
+        width: 80%;
+        font-size: 20px;
+    }
+/*******************************************/
+
+    .u1
+    {
+        width: 60%;
+    }
+    .ubicacion
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aUbicacion p
+    {
+        font-size: 20px;
+    }
+    .u4
+    {
+       width: 90%; 
+    }
+    .u6
+    {
+        font-size: 30px !important;
+    }
+
+/***************************************/
+
+    .flor6
+    {
+        width: 50%;
+    }
+    .sobre
+    {
+        width: 15%;
+    }
+    .vestimenta
+    {
+        width:50%;
+    }
+    .colores
+    {
+        width: 90%;
+    }
+    .blanco, .azul, .celeste, .marino, .rojo, .granate
+    {
+        width: 110px !important;
+        height: 48px;
+        margin: 0px 5px;
+    }
+    .r2, .r5, .r7, .r9
+    {
+        font-size: 25px !important;
+    }
+    .r3
+    {
+        width: 80%;
+        margin: auto;
+    }
+    .r9
+    {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .regalo p
+    {
+        font-size: 20px;
+    }
+}
